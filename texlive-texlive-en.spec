@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlive-en.doc.ta
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 TeXLive texlive-en package.
@@ -61,7 +59,6 @@ TeXLive texlive-en package.
 %doc %{_texmfdir}/doc/texlive/texlive-en/texlive-en.html
 %doc %{_texmfdir}/doc/texlive/texlive-en/texlive-en.pdf
 %doc %{_texmfdir}/doc/texlive/texlive-en/texlive-en.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -72,5 +69,3 @@ TeXLive texlive-en package.
 %install
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf %{buildroot}%{_datadir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
