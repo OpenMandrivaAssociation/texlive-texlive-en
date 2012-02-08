@@ -1,12 +1,12 @@
-# revision 24091
+# revision 25332
 # category TLCore
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-texlive-en
-Version:	20111104
-Release:	2
+Version:	20120208
+Release:	1
 Summary:	TeX Live manual (English)
 Group:		Publishing
 URL:		http://tug.org/texlive
