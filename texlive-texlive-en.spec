@@ -1,11 +1,11 @@
-# revision 25950
+# revision 26703
 # category TLCore
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-texlive-en
-Version:	20120611
+Version:	20120808
 Release:	1
 Summary:	TeX Live manual (English)
 Group:		Publishing
@@ -35,6 +35,7 @@ TeXLive texlive-en package.
 %doc %{_texmfdir}/doc/texlive/texlive-en/archive/live-2008.tex
 %doc %{_texmfdir}/doc/texlive/texlive-en/archive/live-2009.tex
 %doc %{_texmfdir}/doc/texlive/texlive-en/archive/live-2010.tex
+%doc %{_texmfdir}/doc/texlive/texlive-en/archive/live-2011.tex
 %doc %{_texmfdir}/doc/texlive/texlive-en/archive/live-tl7.tex
 %doc %{_texmfdir}/doc/texlive/texlive-en/archive/live4ht.cfg-2004
 %doc %{_texmfdir}/doc/texlive/texlive-en/archive/mod.pl
