@@ -1,11 +1,11 @@
-# revision 31844
+# revision 32016
 # category TLCore
 # catalog-ctan undef
 # catalog-date undef
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-texlive-en
-Version:	20131009
+Version:	20131130
 Release:	1
 Summary:	TeX Live manual (English)
 Group:		Publishing
