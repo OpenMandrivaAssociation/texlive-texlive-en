@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-texlive-en
 Version:	20131130
-Release:	8
+Release:	9
 Summary:	TeX Live manual (English)
 Group:		Publishing
 URL:		http://tug.org/texlive
