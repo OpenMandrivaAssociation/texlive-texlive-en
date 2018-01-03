@@ -1,12 +1,6 @@
-# revision 32016
-# category TLCore
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-texlive-en
-Version:	20131130
-Release:	9
+Version:	20170519
+Release:	1
 Summary:	TeX Live manual (English)
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -22,45 +16,9 @@ TeXLive texlive-en package.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/Makefile
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/README
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/bv-live.tex
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/bvoutln.sty
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/changemail
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/l.pl
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/live-2003.tex
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/live-2004.tex
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/live-2005.tex
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/live-2007.tex
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/live-2008.tex
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/live-2009.tex
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/live-2010.tex
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/live-2011.tex
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/live-2012.tex
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/live-tl7.tex
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/live4ht.cfg-2004
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/mod.pl
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/nocites.tex
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/picture.tex
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/split.pl
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/status.pl
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/tex-live.bib
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/tex-live.bst
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/tex-live.sty-2003
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/tex-live.sty-2004
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/tex-live.sty-2005
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/tex-live.sty-2007
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/tex-live.sty-2008
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/tex-live.sty-2009
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/tex-live.sty-2010
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/archive/texlive.pl
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/live4ht.cfg
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/tex-live.css
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/tex-live.sty
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/texlive-en.css
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/texlive-en.html
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/texlive-en.pdf
-%doc %{_texmfdistdir}/doc/texlive/texlive-en/texlive-en.tex
+%doc %{_texmfdistdir}/doc/texlive/texlive-en
+%doc %{_texmfdistdir}/doc/info/tlbuild.info
+%doc %{_texmfdistdir}/doc/texlive/tlbuild
 
 #-----------------------------------------------------------------------
 %prep
