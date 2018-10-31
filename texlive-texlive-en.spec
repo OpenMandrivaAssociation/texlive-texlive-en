@@ -1,6 +1,6 @@
 Name:		texlive-texlive-en
 Version:	20180527
-Release:	1
+Release:	2
 Summary:	TeX Live manual (English)
 Group:		Publishing
 URL:		http://tug.org/texlive
