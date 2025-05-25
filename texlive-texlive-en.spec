@@ -1,5 +1,5 @@
 Name:		texlive-texlive-en
-Version:	71152
+Version:	74120
 Release:	1
 Summary:	TeX Live manual (English)
 Group:		Publishing
